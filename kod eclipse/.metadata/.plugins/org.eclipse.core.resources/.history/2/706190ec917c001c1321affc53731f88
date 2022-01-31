@@ -1,0 +1,7 @@
+package Testovi;
+
+import junit.framework.TestCase;
+
+public class ProfileTest extends TestCase {
+
+}

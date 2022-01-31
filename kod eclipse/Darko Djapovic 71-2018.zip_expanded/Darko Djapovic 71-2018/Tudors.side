@@ -1,0 +1,716 @@
+{
+  "id": "fb927705-6c80-477f-87b7-70632b76884e",
+  "version": "2.0",
+  "name": "Tudors",
+  "url": "https://tudors.rs/products.php?CategoryID=4",
+  "tests": [{
+    "id": "4bb4638d-9919-4f97-8ff2-cec3f936e9a6",
+    "name": "RegisterTudors",
+    "commands": [{
+      "id": "ef222291-ae2c-4d49-acb2-8e6f159eb8cb",
+      "comment": "",
+      "command": "open",
+      "target": "https://tudors.rs/login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e6c3f62-66ee-42e2-b499-82cbb9de83b4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "265cc398-6fc8-4680-9638-0e79b531707e",
+      "comment": "",
+      "command": "click",
+      "target": "name=FirstName",
+      "targets": [
+        ["name=FirstName", "name"],
+        ["css=#PostRegister > .form-control:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='FirstName']", "xpath:attributes"],
+        ["xpath=//form[@id='PostRegister']/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f32cdc5-53f6-4dc5-a252-5463f8906300",
+      "comment": "",
+      "command": "type",
+      "target": "name=FirstName",
+      "targets": [
+        ["name=FirstName", "name"],
+        ["css=#PostRegister > .form-control:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='FirstName']", "xpath:attributes"],
+        ["xpath=//form[@id='PostRegister']/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input[3]", "xpath:position"]
+      ],
+      "value": "Darko"
+    }, {
+      "id": "f11ae27b-d359-4665-a259-b32f20e364a3",
+      "comment": "",
+      "command": "type",
+      "target": "name=LastName",
+      "targets": [
+        ["name=LastName", "name"],
+        ["css=.form-control:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='LastName']", "xpath:attributes"],
+        ["xpath=//form[@id='PostRegister']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Đapović"
+    }, {
+      "id": "797f234e-830b-4b2d-96f2-0817ac8717da",
+      "comment": "",
+      "command": "type",
+      "target": "name=Address",
+      "targets": [
+        ["name=Address", "name"],
+        ["css=.form-control:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='Address']", "xpath:attributes"],
+        ["xpath=//form[@id='PostRegister']/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "Užičke republike 83"
+    }, {
+      "id": "6b561130-9210-4c5c-8833-abe0f8341d43",
+      "comment": "",
+      "command": "type",
+      "target": "name=City",
+      "targets": [
+        ["name=City", "name"],
+        ["css=.form-control:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='City']", "xpath:attributes"],
+        ["xpath=//form[@id='PostRegister']/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "Užice"
+    }, {
+      "id": "162a6d15-f552-43d3-8f15-80dadf4188a6",
+      "comment": "",
+      "command": "type",
+      "target": "name=PostalCode",
+      "targets": [
+        ["name=PostalCode", "name"],
+        ["css=.form-control:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='PostalCode']", "xpath:attributes"],
+        ["xpath=//form[@id='PostRegister']/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": "31000"
+    }, {
+      "id": "58325d40-7831-4f69-af41-d992e7868c1d",
+      "comment": "",
+      "command": "type",
+      "target": "id=Phone",
+      "targets": [
+        ["id=Phone", "id"],
+        ["name=MobilePhone", "name"],
+        ["css=#Phone", "css:finder"],
+        ["xpath=//input[@id='Phone']", "xpath:attributes"],
+        ["xpath=//form[@id='PostRegister']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "0600180819"
+    }, {
+      "id": "09324c32-b9f6-4422-b035-f1f63c2454ee",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(10)",
+      "targets": [
+        ["css=.form-control:nth-child(10)", "css:finder"],
+        ["xpath=(//input[@name='EmailAddress'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='PostRegister']/input[8]", "xpath:idRelative"],
+        ["xpath=//input[8]", "xpath:position"]
+      ],
+      "value": "redda999@gmail.com"
+    }, {
+      "id": "b7b9cdc1-1e2f-47a5-a658-fa2e36e82baa",
+      "comment": "",
+      "command": "click",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//form[@id='PostRegister']/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a886d954-5baa-46d6-9851-3c0573b32a4d",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//form[@id='PostRegister']/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "031554806aA"
+    }, {
+      "id": "a9cf6c3a-f4e8-4d2d-afc3-adcba54b76d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-1 > .custom-control-label",
+      "targets": [
+        ["css=.mb-1 > .custom-control-label", "css:finder"],
+        ["xpath=//form[@id='PostRegister']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Saglasan sam da dobijam promo ponude putem Viber-a.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b08f0288-038a-4e7c-b0fd-49bd8fee46f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-1 > .custom-control-label",
+      "targets": [
+        ["css=.mt-1 > .custom-control-label", "css:finder"],
+        ["xpath=//form[@id='PostRegister']/div[4]/label", "xpath:idRelative"],
+        ["xpath=//div[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Saglasan sam da dobijam promo ponude na e-mail.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87550652-a329-4a68-a39b-e0484eef7d01",
+      "comment": "",
+      "command": "click",
+      "target": "id=RegisterButton",
+      "targets": [
+        ["id=RegisterButton", "id"],
+        ["css=#RegisterButton", "css:finder"],
+        ["xpath=//button[@id='RegisterButton']", "xpath:attributes"],
+        ["xpath=//form[@id='PostRegister']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9d4a4f0b-bc2e-4efc-beab-a859a89155ee",
+    "name": "LoginTudors",
+    "commands": [{
+      "id": "045766e6-41bb-4124-9793-8ce5e5f05413",
+      "comment": "",
+      "command": "open",
+      "target": "https://tudors.rs/login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe755404-032f-47df-8f31-ea7dbf017a61",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54dd8ab2-e2e9-479f-b4ce-69aeb4d45688",
+      "comment": "",
+      "command": "click",
+      "target": "name=EmailAddress",
+      "targets": [
+        ["name=EmailAddress", "name"],
+        ["css=form:nth-child(2) > .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='EmailAddress']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c755a68-e8c6-4875-a127-3e3582bca4f2",
+      "comment": "",
+      "command": "type",
+      "target": "name=EmailAddress",
+      "targets": [
+        ["name=EmailAddress", "name"],
+        ["css=form:nth-child(2) > .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='EmailAddress']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "redda999@gmail.com"
+    }, {
+      "id": "43219c00-4024-43ad-abe4-79393aa50205",
+      "comment": "",
+      "command": "click",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.col-md-6:nth-child(1) .form-control:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42347830-3e43-4006-9af2-eaedd9c03525",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password",
+      "targets": [
+        ["name=Password", "name"],
+        ["css=.col-md-6:nth-child(1) .form-control:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Password']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "031554806aA"
+    }, {
+      "id": "ec6c5a07-e515-4bbc-97b3-456416490bea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-footer:nth-child(4) > .btn",
+      "targets": [
+        ["css=.form-footer:nth-child(4) > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//main/div/div/div/form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9e661107-f233-4ba2-ab86-a8cd5b9cee2d",
+    "name": "CartTudors",
+    "commands": [{
+      "id": "dfbefcea-e696-43e0-9736-3bbf692436af",
+      "comment": "",
+      "command": "open",
+      "target": "https://tudors.rs/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a1a5709-aa9a-4729-a9b3-524ff398f0bc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6261188-ed64-421e-9af1-74e8a039b046",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show:nth-child(1) > a",
+      "targets": [
+        ["css=.show:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Jednobojne')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/kosulje/slim-fit/jednobojne/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ec242ef-4789-4a0f-adf6-61acd1f01db2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Modern fit jednobojna crna košulja dugih rukava sa kragnom",
+      "targets": [
+        ["linkText=Modern fit jednobojna crna košulja dugih rukava sa kragnom", "linkText"],
+        ["css=.col-6:nth-child(1) .product-details a", "css:finder"],
+        ["xpath=//a[contains(text(),'Modern fit jednobojna crna košulja dugih rukava sa kragnom')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/artikal/288/modern-fit-jednobojna-crna-košulja-dugih-rukava-sa-kragnom/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Modern fit jednobojna crna košulja dugih rukava sa kragnom')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ebee269-6ec8-4946-8ed8-ab3d2ba8ecb7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=M",
+      "targets": [
+        ["linkText=M", "linkText"],
+        ["css=li:nth-child(1) > .select-size", "css:finder"],
+        ["xpath=(//a[contains(text(),'M')])[11]", "xpath:link"],
+        ["xpath=//div[@id='SizeSelector']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[22]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39883f3a-4f37-48a0-a4ef-d9a3858677a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span",
+      "targets": [
+        ["css=.btn > span", "css:finder"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce65bf57-ffaa-455a-83b8-189a1eb7452a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show:nth-child(1) > a",
+      "targets": [
+        ["css=.show:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Jednobojne')])[3]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/products.php?CategoryID=3&Type[]=Slim Fit&Pattern[]=Jednobojni/e')]", "xpath:href"],
+        ["xpath=//li[3]/div/div/div/div/div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15f504ec-55b5-4470-8f03-16779dc61f79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loaded:nth-child(1)",
+      "targets": [
+        ["css=.loaded:nth-child(1)", "css:finder"],
+        ["xpath=(//img[@alt='product'])[9]", "xpath:img"],
+        ["xpath=//div[2]/div/div/div/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cad39c57-52e7-4220-ac7a-a91589e584f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span",
+      "targets": [
+        ["css=.btn > span", "css:finder"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e136868-12fe-444d-8f94-a136d4532b3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show:nth-child(1) > a",
+      "targets": [
+        ["css=.show:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Džemperi')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/products.php?CategoryID=2&Sleeve[]=Dugi Rukavi&Buttoning[]=Bez Raskopčavanja')]", "xpath:href"],
+        ["xpath=//li[4]/div/div/div/div/div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a8796a4-923d-4bc2-bfef-abc26c5c4249",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-6:nth-child(1) .lazy",
+      "targets": [
+        ["css=.col-6:nth-child(1) .lazy", "css:finder"],
+        ["xpath=(//img[@alt='product'])[11]", "xpath:img"],
+        ["xpath=//div[2]/div/div/div/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06da38dd-ea98-488d-a86a-2146e1538cb5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=S",
+      "targets": [
+        ["linkText=S", "linkText"],
+        ["css=li:nth-child(1) > .select-size", "css:finder"],
+        ["xpath=(//a[contains(text(),'S')])[59]", "xpath:link"],
+        ["xpath=//div[@id='SizeSelector']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[22]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ee4804a-9330-45d6-8882-d51adb1783bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span",
+      "targets": [
+        ["css=.btn > span", "css:finder"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dd7f7cd3-cb47-41c1-ae46-a492b9f11e4b",
+    "name": "FacebookTudors",
+    "commands": [{
+      "id": "f788b04f-2a37-40c8-8aec-252363e17529",
+      "comment": "",
+      "command": "open",
+      "target": "https://tudors.rs/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c8b1762-fad7-40bb-b3e6-2507e40abaef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77565021-42c5-42e9-9c65-9c937f538e32",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.active .owl-lazy",
+      "targets": [
+        ["css=.active .owl-lazy", "css:finder"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7a61855-fdb5-4295-bc9e-0eb54a005fdd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.active .owl-lazy",
+      "targets": [
+        ["css=.active .owl-lazy", "css:finder"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7d76c25-292d-4d1c-819c-82f522e67723",
+      "comment": "",
+      "command": "click",
+      "target": "css=.social-icons:nth-child(1) > .social-icon:nth-child(1)",
+      "targets": [
+        ["css=.social-icons:nth-child(1) > .social-icon:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://sr-rs.facebook.com/TudorsRS')]", "xpath:href"],
+        ["xpath=//footer/div/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3876",
+      "windowTimeout": 2000
+    }, {
+      "id": "558d5dc4-5423-49de-baab-cbf97d2f4d59",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3876}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "92c4883c-442e-47d8-a5dd-7470d1959558",
+    "name": "InstagramTudors",
+    "commands": [{
+      "id": "40a24559-5ddc-4ab0-a980-b9db7793293c",
+      "comment": "",
+      "command": "open",
+      "target": "https://tudors.rs/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "110d5c60-67ec-4026-85fe-febb69ec4bae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "facade54-797d-4e77-abff-a2ba4db15e17",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.active .owl-lazy",
+      "targets": [
+        ["css=.active .owl-lazy", "css:finder"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bef1338-968b-4d01-b7a4-86ad890cad62",
+      "comment": "",
+      "command": "click",
+      "target": "css=.social-icons:nth-child(1) > .social-icon:nth-child(2)",
+      "targets": [
+        ["css=.social-icons:nth-child(1) > .social-icon:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.instagram.com/tudors_serbia/?hl=sr')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win56",
+      "windowTimeout": 2000
+    }, {
+      "id": "0ed3e271-c4cf-4334-9872-6ca7de7a255f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win56}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dbebae5a-e343-4485-8f78-118bc273cfc7",
+    "name": "SearchTudors",
+    "commands": [{
+      "id": "e30443cd-fdb1-4020-a17f-7d3c85907ce9",
+      "comment": "",
+      "command": "open",
+      "target": "https://tudors.rs/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0db219b9-501b-41fc-93c2-13ea03a64a4e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cd2f5cf-4c25-45e9-9fd6-1da48c480d56",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=SearchQuery", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51c4ba44-2a99-4de9-8c81-aacb26e312c9",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=SearchQuery", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "SA ŠAROM"
+    }, {
+      "id": "0758c5ad-8d83-4b7c-9d92-1d3df5e51cc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > .icon-magnifier",
+      "targets": [
+        ["css=.btn > .icon-magnifier", "css:finder"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4b063ba9-d400-4d7c-a7b3-ec3a981ee061",
+    "name": "SearchWithCodeTudors",
+    "commands": [{
+      "id": "ff04604f-6e82-4e5d-b8c6-ba278ab28404",
+      "comment": "",
+      "command": "open",
+      "target": "https://tudors.rs/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "645ddf0e-61f0-44a3-9256-595eb57a8c5c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5100336-92c8-48cc-ba29-cc23bdbb8fc6",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=SearchQuery", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df83dcb6-84c9-4f23-8a0b-6deaf76f2566",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=SearchQuery", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "TS200008-202"
+    }, {
+      "id": "304bbf87-04c2-4170-ba0d-2de4a12d67e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > .icon-magnifier",
+      "targets": [
+        ["css=.btn > .icon-magnifier", "css:finder"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6a95c699-0f33-4ef0-a9b5-d8484fc582e4",
+    "name": "Price",
+    "commands": [{
+      "id": "027a6eab-03e2-4ed4-a7da-b4b5edbb5e8d",
+      "comment": "",
+      "command": "open",
+      "target": "https://tudors.rs/products.php?CategoryID=4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca68bb38-5f97-4ceb-b6e7-f90f78b53682",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecff4aa5-38c8-4221-b464-cc00a1ff4ff2",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.noUi-handle-upper",
+      "targets": [
+        ["css=.noUi-handle-upper", "css:finder"],
+        ["xpath=//div[@id='price-slider']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "155.51913452148438,3.749969482421875"
+    }, {
+      "id": "1a78da7f-cd43-4149-8e37-d96e69af931f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.price-slider-wrapper",
+      "targets": [
+        ["css=.price-slider-wrapper", "css:finder"],
+        ["xpath=//div[@id='widget-body-7']/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[6]/div/div/div", "xpath:position"]
+      ],
+      "value": "105.77777099609375,8.555511474609375"
+    }, {
+      "id": "7ab5fd05-3d3a-4734-9dd9-a594722a26b5",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.price-slider-wrapper",
+      "targets": [
+        ["css=.price-slider-wrapper", "css:finder"],
+        ["xpath=//div[@id='widget-body-7']/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[6]/div/div/div", "xpath:position"]
+      ],
+      "value": "105.77777099609375,8.555511474609375"
+    }, {
+      "id": "2b10ed5b-ebd4-4250-a454-e2715c2e9de4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.noUi-handle-upper",
+      "targets": [
+        ["css=.noUi-handle-upper", "css:finder"],
+        ["xpath=//div[@id='price-slider']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ed28c96-b2da-4080-97e7-3793789f5bcc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(3)",
+      "targets": [
+        ["css=.btn-primary:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d88e8201-8bad-4390-8f4c-d0ae260eed65",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://tudors.rs/", "https://tudors.rs/login.php", "https://tudors.rs/products.php?CategoryID=4"],
+  "plugins": []
+}

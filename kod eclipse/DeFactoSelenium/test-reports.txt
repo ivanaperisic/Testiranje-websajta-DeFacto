@@ -1,0 +1,31 @@
+Ukupno vreme izvrsavanja testova:19658
+Broj testova:9
+Broj uspešno izvršenih testova:1
+Broj testova koji nisu prošli:8
+
+DeFacto:
+
+
+			IzveÅ¡taji testova:
+
+Ime testa: AddToCartTest:
+Opis testa: Test je radjen uz pomoc AssertEquals metode. Proveravamo da li se na stranici Korpa nalaze 3 reda, Sto bi znacilo to da su 3 dodata proizvoda. Ako se nalaze 3 proizvoda test je uspesno prosao.
+
+Ime testa: LoginTest:
+Opis testa: Da bi se prijavili na stranicu potrebno je u formu upisati e-mail adresu i lozinku da bi prtupili profilu . Proverićemo ispravnost, uz pomoc assertEquals metode koja proverava se da li se nakon klika na dugme Sign in korisnik preusmeren na stranicu Account Ako je korisnik preusmeren gde treba, test prolazi.
+
+Ime testa: AccountTest:
+Opis testa: Da bi smo proverili da li su podaci koji su korisceni pri registraciji isti kao podaci koji se nalaze na profiluKoriscena je assertTrue metoda koja na osnovu e-maila proverava da li se uneseni podaci poklapaju sa podacima na stranici Mz Account. 
+
+Ime testa: RegisterTest:
+Opis testa: Radi provere ispravnosti testa, u kod je dodata assertTrue metoda koja proverava da li se nakon registracije korisnik preusmerava na stranicu My Account"" Ako korisnik sse nalazi na stranici My Account tu poruku, test je uspesan. 
+
+Ime testa: SearchBarTest:
+Opis testa: Testiranje je uradjeno uz pomoc metode assertTrue
+Ova metoda proverava da li se u izvornom kodu stranice nalazi navedena kljucna rec. Ukoliko se proizvod pojavi, test je prolazi. 
+
+Ime testa: TotalSumTest:
+Kada dodamo proizvod u korpu cena se sabira sa ostalim proizvodima koji se u njoj nalaze. U ovom testu izvršavamo proveru da li cena svih proizvoda odgovara napisanoj obračunatoj ceni. U korpi se još obračunava i popust ukoliko postoji. actualPrice se upoređuje sa sumom i ukoliko su rezultati isti test je prošao.\n");
+
+
+		SVI TESTOVI SU PROSLI USPESNO

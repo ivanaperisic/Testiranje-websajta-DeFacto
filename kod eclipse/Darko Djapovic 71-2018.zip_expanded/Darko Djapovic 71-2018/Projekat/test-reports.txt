@@ -1,0 +1,48 @@
+Vreme izvrsavanja:151672
+Broj testova:8
+Uspesno testova:8
+Broj palih testova:0
+Broj preskocenih:0
+Broj dinamicki preskocenih:0
+
+Tudors:
+SEDIŠTE FIRME:
+Požeška 58/7,11030 Beograd, Srbija
+Matični broj:
+20732814
+
+Broj računa
+155-30479-44
+Radno vreme:
+Radnim danima od 09h do 16h
+Telefon:
+063 439 414
+Email:
+online@tudors.rs
+
+			Izveštaji testova:
+
+Ime testa: CartTudors:
+Opis testa: Test je rađen uz pomoć AssertEquals metode.Uz pomoć nje proveravamo da li se na stranici Korpa nalaze 3 reda, što znači da su to 3 dodata proizvoda. Ukoliko se nalaze tačno tri proizvoda, što je i bio uslov, test je uspešan.
+
+Ime testova: facebookTudors, instagramTudors:
+Opis testa: Sajt poseduje dve ikonice koje su linkovane na dve društvene mreže, Instagram i Facebook. Nakon klika, test metoda će proveriti da li se uspešno pristupa ovim društvenim mrežama. Za potrebe ovog testa korišćene su assertEquals metode.
+
+Ime testa: loginTudors:
+Opis testa: Potrebno je uneti e-mail adresu i lozinku kako bi se izvršilo prijavlijvanje korisnika na sistem. Da bi smo proveli ispravnost, uz pomoć assertEquals metode proverava se da li je nakon klika na dugme PRIJAVITE SE korisnik preusmeren na stranicu Dashboard, tj. na stranicu sa informacijama o profilu. Ako je korisnik preusmeren gde treba, prijava je uspela i test prolazi.
+
+Ime testa: profileTudors:
+Opis testa: Da bi smo proverili da li su podaci koji su korišćeni pri registraciji jednaki sa podacima korisnika, biće korišćena assertTrue metoda koja na osnovu recimo e-maila proverava da li se uneseni podaci poklapaju sa podacima na stranici Moj Nalog. 
+
+Ime testa: registerTudors:
+Opis testa: Radi provere ispravnosti testa, u kod je dodata assertTrue metoda koja proverava da li se nakon registracije korisniku otvara nova stranica na kojoj se nalazi poruka "Uspešno ste kreirali nalog." Ukoliko korisnik dobije tu poruku, test prolazi. 
+
+Ime testa: searchTudors:
+Opis testa: Testiranje je urađeno uz pomoć metode assertTrue
+Ova metoda proverava da li se u izvoru stranice nalazi navedena šifra ili ključna reč. Ukoliko se proizvod pojavi, test je uspešan. 
+
+Ime testa: totalPriceTudors:
+Opis testa: Radi provere ispravnosti testa, u kod je dodata assertTrue metoda koja proverava da li se nakon registracije korisniku otvara nova stranica na kojoj se nalazi poruka \"Uspešno ste kreirali nalog.\" Ukoliko korisnik dobije tu poruku, test prolazi. \n");
+
+
+		SVI TESTOVI SU USPEŠNI!

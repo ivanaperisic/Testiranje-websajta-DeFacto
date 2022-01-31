@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.debug.Assertions"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Timeout"/>
+    <fullyQualifiedTypeName name="org.junit.Rule"/>
+    <fullyQualifiedTypeName name="org.junit.rules.Timeout"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.Arguments"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.ParameterizedTest"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.MethodSource"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
+    <fullyQualifiedTypeName name="org.junit.runner.JUnitCore"/>
+    <fullyQualifiedTypeName name="org.junit.runner.Result"/>
+    <fullyQualifiedTypeName name="junit.textui.TestRunner"/>
+    <fullyQualifiedTypeName name="Testovi.AllTests"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.TestReporter"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+    <fullyQualifiedTypeName name="Testovi.LoginTest"/>
+    <fullyQualifiedTypeName name="Testovi.TotalSumTest"/>
+    <fullyQualifiedTypeName name="Testovi.CheckColorTest"/>
+    <fullyQualifiedTypeName name="Testovi.RegisterTest"/>
+    <fullyQualifiedTypeName name="Testovi.ProfileTest"/>
+    <fullyQualifiedTypeName name="Testovi.AddToCartTest"/>
+    <fullyQualifiedTypeName name="Testovi.WishListTest"/>
+    <fullyQualifiedTypeName name="Testovi.SearchBarTest"/>
+</qualifiedTypeNameHistroy>
